@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ahmora AppDrive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 data-i18n="welcome">Welcome to Ahmora AppDrive</h1>
+    <input type="text" placeholder="Enter access code" id="codeInput">
+    <button onclick="authorize()" data-i18n="login">Login</button>
+    <select onchange="changeLang(this.value)">
+        <option value="en">🇬🇧</option>
+        <option value="ru">🇷🇺</option>
+        <option value="tr">🇹🇷</option>
+        <option value="az">🇦🇿</option>
+    </select>
+    <script src="script.js"></script>
+</body>
+</html>
